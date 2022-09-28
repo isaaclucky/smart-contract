@@ -9,7 +9,9 @@
 
 
 </br>
+<img src="images/smart_contracts_front_page.jpg" name="">
 <img src="images/smart_contracts_are_awesome.jpg" name="">
+<img src="images/blockchain_explained.jpg" name="">
 
 <p align="center">
   <h3 align="center">Smart Contracts Design and Implementation: Digital Certficate Issuing</h3>
