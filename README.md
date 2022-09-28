@@ -25,7 +25,7 @@
     <br />
   </p>
 </p>
-<img src="images/smart_contracts_are_awesome.jpg" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="images/smart_contracts_are_awesome.jpg" style="float: left; width: 70%; margin-right: 1%; margin-bottom: 0.5em;">
 
 
 
