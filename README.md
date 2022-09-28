@@ -30,8 +30,7 @@
 
 
 
-## Articles
-- [Medium Article](https://medium.com/@isaaclucky88/)
+
 
 ## Table of Contents
 
@@ -97,6 +96,8 @@ sudo python3 setup.py install
 <!-- GETTING STARTED -->
 ## Getting Started
 
+## Article
+- [Medium Article](https://medium.com/@isaaclucky88/)
 
 ### Prerequisites
 
@@ -137,6 +138,7 @@ git clone https://github.com/isaaclucky/smart-contract.git
    ```bash
     sudo python3 setup.py install
    ```
+
 
 
 <!-- LICENSE -->
