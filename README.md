@@ -151,8 +151,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Email - [@Gmail](isaaclucky88@gmail.com)
-Contact Me - [@contact](https://www.linkedin.com/in/yishak-tadele/)
+Linkedin - [@Linkedin](https://www.linkedin.com/in/yishak-tadele/)
+Gmail - [@Gmail](isaaclucky88@gmail.com)
 
 
 <!-- ACKNOWLEDGEMENTS -->
