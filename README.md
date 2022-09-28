@@ -151,7 +151,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Yishak Tadele - [@Send Me email](isaaclucky88@gmail.com)
+Email - [@isaaclucky88@gmail.com](isaaclucky88@gmail.com)
 Contact Me - [@contact](https://www.linkedin.com/in/yishak-tadele/)
 
 
