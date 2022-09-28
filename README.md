@@ -13,14 +13,8 @@
 
 
 <img src="images/smart_contract_front_page.jpg" name="">
-<div class="row">
-  <div class="column">
-    <img src="images/smart_contracts_are_awesome.jpg" alt="Smart Contracts" style="width:30%">
-  </div>
-  <div class="column">
-    <img src="images/blockchain_explained.jpg" alt="Blockchain Explanation" style="width:40%">
-  </div>
-</div>
+<img src="images/smart_contracts_are_awesome.jpg" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="images/blockchain_explained.jpg" style="float: left; width: 50%; margin-right: 1%; margin-bottom: 0.5em;">
 
 
 <p align="center">
