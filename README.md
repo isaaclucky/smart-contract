@@ -13,9 +13,7 @@
 
 
 <img src="images/smart_contract_front_page.jpg" name="">
-<img src="images/smart_contracts_are_awesome.jpg" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;">
-
-
+<br />
 <p align="center">
   <h3 align="center">Smart Contracts Design and Implementation: Digital Certficate Issuing</h3>
 
@@ -27,6 +25,10 @@
     <br />
   </p>
 </p>
+<img src="images/smart_contracts_are_awesome.jpg" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;">
+
+
+
 
 ## Articles
 - [Medium Article](https://medium.com/@isaaclucky88/)
