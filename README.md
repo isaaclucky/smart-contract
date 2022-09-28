@@ -15,10 +15,10 @@
 <img src="images/smart_contract_front_page.jpg" name="">
 <div class="row">
   <div class="column">
-    <img src="images/smart_contracts_are_awesome.jpg" alt="Smart Contracts" style="width:100%">
+    <img src="images/smart_contracts_are_awesome.jpg" alt="Smart Contracts" style="width:30%">
   </div>
   <div class="column">
-    <img src="images/blockchain_explained.jpg" alt="Blockchain Explanation" style="width:100%">
+    <img src="images/blockchain_explained.jpg" alt="Blockchain Explanation" style="width:40%">
   </div>
 </div>
 
