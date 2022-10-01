@@ -37,7 +37,7 @@ const Navbar = () => {
   return (
     <AppBar position="sticky">
       <StyledToolbar>
-        <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>Dev word</Typography>
+        <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>10 Academy</Typography>
         <SchoolIcon sx={{ display: { xs: "block", sm: "none" } }} />
         <Search><InputBase placeholder="search..."></InputBase></Search>
         <Icons>

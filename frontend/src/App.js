@@ -1,31 +1,16 @@
-/* global AlgoSigner */
-
-import React from 'react'
-import AlgoSigner from './components/AlgoSigner/AlgoSigner'
-import Feed from "./components/Feed";
-import Rightbar from "./components/Rightbar";
-import Sidebar from "./components/Sidebar";
-import Navbar from "./components/Navbar";
-import {Box,Stack} from "@mui/material"
-
+import React, {useState, useEffect} from 'react'
+// import Register from './Auth/Register';
+// import Login from './Auth/Login'
 function App() {
-// const algodServer = 'https://testnet-algorand.api.purestake.io/ps2'
-// const indexerServer = 'https://testnet-algorand.api.purestake.io/idx2'
-// const token = { 'X-API-Key': 'YOUR API KEY HERE' }
-// const port = '';
-
-
+  const [data,setData] = useState([{}])
+  useEffect(()=>{
+    fetch("")
+  })
   return (
-    <Box  >
-      <Navbar />
-      <Stack direction="row" spacing={2} justifyContent="space-between">
-        <Sidebar/>
-        <Feed/>
-        <Rightbar/>
-      </Stack>
+    <div>
       
-    </Box>
+    </div>
   )
 }
 
-export default App
+export default App 

@@ -1,6 +1,9 @@
 flask
 flask-sqlalchemy
-psycopg2
+flask-bcrypt
+# psycopg2
 # python-detenv
 flask-cors
 pyteal
+flask-session
+redis
