@@ -3,6 +3,7 @@ import React from 'react'
 import LandingPage from "./pages/LandingPage";
 import NotFound from "./pages/NotFound";
 import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/Register";
 
 const Router = () => {
   return (
@@ -11,6 +12,7 @@ const Router = () => {
           
             <Route path="/" element={<LandingPage/>} />
             <Route path="/login" element={<LoginPage/>} />
+            <Route path="/register" element={<RegisterPage/>} />
             <Route path= "/*" element={<NotFound/>}/>
 
 

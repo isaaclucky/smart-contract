@@ -1,15 +1,20 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
+import Router from './Router'
 // import Register from './Auth/Register';
 // import Login from './Auth/Login'
 function App() {
-  const [data,setData] = useState([{}])
-  useEffect(()=>{
+  const [data, setData] = useState([{}])
+  useEffect(() => {
     fetch("")
   })
   return (
-    <div>
-      
-    </div>
+    <React.StrictMode>
+
+      <div>
+        <Router />
+      </div>
+
+    </React.StrictMode>
   )
 }
 
