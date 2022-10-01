@@ -1,9 +1,10 @@
 /*global AlgoSigner*/
 import React,{useState, useRef} from "react";
-import { FormStyle, Button } from "../Form.style";
-// import { TransactionButton } from "../Button.styles";
+import { FormStyle } from "../Form.style";
+import { Button, TransactionButton } from "../Button.styles";
 // import { BodyText } from "../AlgoSigner/AlgoSigner.styles";
 import { TOKEN, ALGOD_SERVER, PORT } from "../../constants";
+import { Typography } from "@mui/material";
 const algosdk = require("algosdk");
 
 const SignPayTransaction = ({userAccount, amount, receipient}) => {
@@ -80,7 +81,6 @@ const SignPayTransaction = ({userAccount, amount, receipient}) => {
             <Typography>Make Payment</Typography>
             <FormStyle onChange = {(e) => amount.current = e.target.value} placeholder="Amount" /><br/>
             <FormStyle onChange = {(e) => receipient.current = e.target.value} placeholder="Receiver address" /><br/>
-            <Button size="small"  onClick ={signPayTransaction}>{isLoading ? "loading...": "Sign Transaction"}</Button>
             <TransactionButton backgroundColor onClick ={signPayTransaction}>{isLoading ? "loading...": "Sign Transaction"}</TransactionButton>
         </div>
     </div>

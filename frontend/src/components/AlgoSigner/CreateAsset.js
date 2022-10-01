@@ -2,8 +2,8 @@
 import React, {useRef, useState} from "react";
 import { FormStyle } from "../Form.style";
 import { TransactionButton } from "../Button.styles";
-import { BodyText } from "../MyAlgoWallet/MyAlgoWallet.styles";
 import { TOKEN, ALGOD_SERVER, PORT, RECEIVER } from "../../constants";
+import { Typography } from "@mui/material";
 const algosdk = require("algosdk");
 
 const CreateAsset = ({userAccount}) => {
@@ -57,7 +57,7 @@ const CreateAsset = ({userAccount}) => {
     return(
     <div>
         <div>
-            <BodyText>Create Asset</BodyText>
+            <Typography>Create Asset</Typography>
             <FormStyle onChange = {(e) => assetName.current = e.target.value} placeholder="Asset name" /><br/>
             <FormStyle onChange = {(e) => unitName.current = e.target.value} placeholder="Unit name" /><br/>
             <FormStyle onChange = {(e) => totalUnit.current = e.target.value} placeholder="Total units" /><br/>
