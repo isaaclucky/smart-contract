@@ -19,7 +19,9 @@ def get_time():
 		"Date":x,
 		"programming":"python"
 		}
-
+@app.route('/login')
+def login():
+    return {"users":["Traine","Manager","Technical_team"]}
 	
 # Running app
 if __name__ == '__main__':

@@ -1,0 +1,22 @@
+{
+    "description": "Graduation Certificate for the trainee", 
+    "external_url": "https://tenx.10academy.org/portfolio/", 
+    "image": "https://tinyurl.com/bdzcpkzy", 
+    "name": "Dave Starbelly",
+    "attributes": [
+        {
+          "trait_type": "Commulative_Result", 
+          "value": "Starfish"
+        }, 
+        {
+            "trait_type":"Badges_Earned",
+            "value" : 5
+        },
+        {
+            "trait_type":"Batch_number",
+            "value": 6
+        }
+
+      ]
+    
+  }
