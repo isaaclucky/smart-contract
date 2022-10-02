@@ -25,3 +25,6 @@ input {
   font-size: 18px;
   margin-left: 5px;
 }
+table, th, td {
+  border: 0.1px solid;
+}

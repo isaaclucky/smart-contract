@@ -4,6 +4,8 @@ import httpClient from "../httpClient";
 const RegisterPage: React.FC = () => {
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
+  const [first_name, setFirstName] = useState<string>("");
+  const [last_name, setLastName] = useState<string>("");
 
   const registerUser = async () => {
 
@@ -11,6 +13,8 @@ const RegisterPage: React.FC = () => {
       const resp = await httpClient.post("//localhost:5000/register", {
         email,
         password,
+        first_name,
+        last_name,
       });
 
       window.location.href = "/";
@@ -25,6 +29,24 @@ const RegisterPage: React.FC = () => {
     <div>
       <h1>Create An Account</h1>
       <form>
+        <div>
+          <label>Fist Name: </label>
+          <input
+            type="text"
+            value={first_name}
+            onChange={(e) => setFirstName(e.target.value)}
+            id=""
+          />
+        </div>
+        <div>
+          <label>Last Name: </label>
+          <input
+            type="text"
+            value={last_name}
+            onChange={(e) => setLastName(e.target.value)}
+            id=""
+          />
+        </div>
         <div>
           <label>Email: </label>
           <input

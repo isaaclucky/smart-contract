@@ -30,7 +30,7 @@ const LandingPage: React.FC = () => {
           <h3>Email: {user.email}</h3>
           <h3>ID: {user.id}</h3>
 
-          <a href="/logout">
+          <a href="/">
           <button onClick={logoutUser}>Logout</button>
           </a>
         </div>
